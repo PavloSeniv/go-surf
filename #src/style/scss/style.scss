@@ -50,8 +50,19 @@
   top: 0;
   right: 0;
 }
-.header__aside-text{
-  
+.header__aside-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-family: FiraSans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 200px;
+  line-height: 156px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.07;
 }
 .header__aside-nav {
   position: absolute;
@@ -60,11 +71,33 @@
   left: 0%;
   border-right: 1px solid #fff;
   height: 100vh;
-  padding: 0 55px;
 }
 .header__logo {
+  display: block;
+  width: 100%;
+  height: 191px;
+  background-color: #4af6cd;
+  &:hover {
+    background-color: #0cf5bf;
+  }
 }
+.header__title-logo {
+  & p {
+    font-family: FiraSans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 114px;
+  }
+}
+
 .menu {
+  margin-top: 100px;
 }
 .menu_list {
 }
@@ -85,8 +118,42 @@
   margin-top: 6px;
 }
 .time-date {
+  margin-top: 20px;
+  text-align: center;
+  font-family: FiraSans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #ffffff;
+  & span {
+    margin-top: 17px;
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1.4px;
+  }
 }
 .geo {
+  display: list-item;
+  list-style-image: url(/img/index/header/geo_marker.svg);
+  margin-top: 30px;
+  font-family: FiraSans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1.05px;
+  color: #ffffff;
+}
+.arrow-down{
+  position: absolute;
+  z-index: 1;
+  left: 250px;
+  bottom: 30px;
 }
 /*-------- Header End -------*/
 
