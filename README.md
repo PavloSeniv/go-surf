@@ -1,6 +1,6 @@
-# Project Name(Gulp__Build)
+# go surf
 
-Project Name Description
+go surf project
 
 ## Authors
 
@@ -8,7 +8,7 @@ Project Name Description
 
 ## Demo
 
-https://pavloseniv.github.io/
+https://pavloseniv.github.io/go-surf/go-surf/index.html
 
 ## Screenshots
 
