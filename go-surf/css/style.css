@@ -1793,6 +1793,20 @@ h6 {
   bottom: 30px;
 }
 
+.swiper-column {
+  position: absolute;
+  z-index: 1;
+  left: 440px;
+  bottom: 37px;
+}
+
+.swiper-category {
+  position: absolute;
+  z-index: 1;
+  left: 900px;
+  bottom: 120px;
+}
+
 /*-------- Header End -------*/
 
 /*-------- Page Index End -------*/
