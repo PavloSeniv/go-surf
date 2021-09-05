@@ -1800,11 +1800,13 @@ h6 {
   bottom: 37px;
 }
 
-.swiper-category {
+.__container-swiper-category {
   position: absolute;
-  z-index: 1;
+  z-index: 3;
   left: 900px;
   bottom: 120px;
+  overflow: visible;
+  max-width: 463px;
 }
 
 /*-------- Header End -------*/
