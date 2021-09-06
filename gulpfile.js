@@ -106,6 +106,8 @@ function css() {
       )
       .pipe(
         autoprefixer({
+          flexbox: true,
+          grid: true,
           overrideBrowserlist: ["last 5 versions"],
           cascade: true,
         })
