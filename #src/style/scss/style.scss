@@ -174,7 +174,6 @@
 .swiper {
 }
 .__container-swiper {
- 
 }
 .swiper-wrapper {
 }
@@ -191,10 +190,66 @@
 .__container-swiper-category {
   position: absolute;
   z-index: 3;
-  left: 900px;
+  right: 80px;
   bottom: 120px;
   overflow: visible;
-  max-width: 463px;
+  max-width: 600px;
+}
+
+.swiper-slide {
+}
+.slider-home {
+}
+.slider-item {
+}
+.slider-subtitle {
+  font-family: FiraSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: right;
+  letter-spacing: 7.33333px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.slider-title {
+  font-family: FiraSans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 86px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.slider-subtext {
+  font-family: FiraSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: right;
+  letter-spacing: 7.33333px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-top: 48px;
+}
+.slider-text {
+  font-family: FiraSans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 86px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.slider-link {
+  display: flex;
+  justify-content: flex-end;
 }
 /*-------- Header End -------*/
 
