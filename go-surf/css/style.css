@@ -1804,9 +1804,15 @@ h6 {
   position: absolute;
   z-index: 3;
   right: 80px;
-  bottom: 120px;
+  top: 0;
   overflow: visible;
+  height: 100%;
   max-width: 600px;
+}
+
+.slider-home {
+  position: relative;
+  top: 60%;
 }
 
 .slider-subtitle {
