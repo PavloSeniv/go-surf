@@ -267,6 +267,9 @@
   justify-content: space-between;
   border-top: 4px solid #fff;
   width: 200px;
+  &:hover{
+    border-top: 4px solid #4af6cd;
+  }
 }
 .wrapper-column {
   display: flex;
